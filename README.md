@@ -72,10 +72,9 @@ git clone https://github.com/Amanda-Zulle/ecommerce-syntaxwear.git
 cd ecommerce-syntaxwear
 ```
 
-### Abrir no navegador
+Abrir no navegador
 
 Abra o arquivo `index.html` em seu navegador preferido.
-
 
 ## 👨‍💻 Autor
 

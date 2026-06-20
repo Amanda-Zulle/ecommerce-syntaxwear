@@ -1,238 +1,81 @@
-# 🛍️ SyntaxWear - E-commerce de Tênis e Sneakers
+# SyntaxWear
 
-SyntaxWear é uma plataforma de e-commerce moderna e responsiva para compra de tênis e sneakers online. O projeto foi desenvolvido como parte do DevQuest 2.0 - Curso Front-end, com foco em boas práticas de desenvolvimento web, design responsivo e estrutura semântica.
+## Descrição
 
-## 📋 Sumário
-
-- [Features](#features)
-- [Tecnologias](#tecnologias)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Instalação](#instalação)
-- [Como Usar](#como-usar)
-- [Componentes](#componentes)
-- [Variáveis CSS](#variáveis-css)
-- [Responsividade](#responsividade)
-- [Autor](#autor)
+O **SyntaxWear** é um site moderno e elegante de e-commerce para venda de tênis e calçados online. Este projeto foi desenvolvido como uma demonstração de habilidades de front-end, com foco na criação de uma interface atraente e responsiva utilizando HTML e CSS.
 
 ---
 
-## ✨ Features
+## Funcionalidades
 
-- ✅ Design responsivo para mobile, tablet e desktop
-- ✅ Menu hamburger para navegação mobile
-- ✅ Seção hero com banner principal
-- ✅ Categorias de produtos
-- ✅ Grid de produtos com layout flexível
-- ✅ Navegação intuitiva
-- ✅ Footer com informações da empresa
-- ✅ Otimizado para SEO
-- ✅ Acessibilidade (ARIA labels, semântica HTML)
-- ✅ Carregamento rápido com CSS modular
+- **Design Responsivo:** O layout adapta-se a diferentes tamanhos de tela, proporcionando uma ótima experiência em desktops, tablets e dispositivos móveis.
+- **UI/UX Moderna:** Design limpo e moderno, com foco em usabilidade e experiência do usuário.
+- **Componentização em CSS:** O CSS é organizado em componentes, facilitando a manutenção e a reutilização de estilos.
+- **Vitrine de Produtos:** A página inicial possui uma seção principal (hero), categorias de produtos e uma grade de produtos para exibição dos itens.
+- **Assinatura de Newsletter:** Formulário de inscrição para newsletter no rodapé.
+- **Links para Redes Sociais:** Links para perfis de redes sociais no rodapé.
 
 ---
 
-## 🛠️ Tecnologias
+## Tecnologias Utilizadas
 
-**Front-end:**
-- HTML5 (Estrutura semântica)
-- CSS3 (Layout responsivo, Flexbox, Grid)
-- JavaScript (Interatividade e menu mobile)
-
-**Recursos:**
-- Google Fonts (fonte Ubuntu)
-- SVG para ícones e logos
-- Meta tags para otimização
+- **HTML5:** Estrutura e conteúdo das páginas.
+- **CSS3:** Estilização do site utilizando recursos modernos como Flexbox e Grid Layout.
+- **Google Fonts:** Fontes personalizadas.
+- **VS Code:** Editor de código.
+- **Git & GitHub:** Controle de versão.
 
 ---
 
-## 📁 Estrutura do Projeto
+## Estrutura de Pastas
 
-```
-01-ecommerce-syntaxwear/
-│
-├── index.html                 # Página principal
-├── README.md                  # Documentação
-│
+O projeto está organizado da seguinte forma:
+
+```text
+/
 ├── css/
-│   ├── reset.css             # Reset de estilos padrão do navegador
-│   ├── variables.css         # Variáveis CSS (fontes, cores, etc)
-│   ├── base.css              # Estilos base globais
-│   └── components/
-│       ├── header.css        # Estilos do cabeçalho
-│       ├── hero.css          # Estilos da seção hero
-│       ├── product-category.css  # Estilos das categorias
-│       ├── product-grid.css  # Estilos do grid de produtos
-│       └── footer.css        # Estilos do rodapé
-│
+│   ├── components/
+│   │   └── (CSS dos componentes do site: header, footer, etc.)
+│   └── (estilos base, componentes e variáveis)
 ├── images/
-│   ├── banners/              # Banners promocionais
-│   ├── favicons/             # Ícones do navegador
-│   ├── icons/                # Ícones SVG (hamburger, user, etc)
-│   ├── logo/                 # Logo do site
-│   └── products/             # Imagens dos produtos
-│
-├── js/                        # Arquivos JavaScript (vazio - pronto para expansão)
-│
-└── .git/                      # Controle de versão Git
+│   └── (logos, banners e imagens dos produtos)
+├── js/
+│   └── (arquivos JavaScript - atualmente vazio)
+├── index.html
+└── README.md
 ```
+
+### Detalhes
+
+- **/css:** Contém os arquivos CSS organizados em estilos base, componentes e variáveis.
+  - **/components:** Contém o CSS de cada componente do site (header, footer, etc.).
+- **/images:** Contém todas as imagens utilizadas no projeto, como logotipos, banners e imagens de produtos.
+- **/js:** Contém os arquivos JavaScript (atualmente vazio).
+- **index.html:** Arquivo HTML principal do site.
+- **README.md:** Este arquivo.
 
 ---
 
-## 🚀 Instalação
+## Como Executar o Projeto
 
-### Pré-requisitos
-- Navegador web moderno (Chrome, Firefox, Safari, Edge)
-- Editor de código (VS Code, Sublime Text, etc)
-- Servidor web local (opcional, mas recomendado)
+Para executar este projeto localmente, basta abrir o arquivo `index.html` em seu navegador.
 
-### Passos
+### Clonar o repositório
 
-1. **Clone ou baixe o repositório:**
 ```bash
-git clone <https://github.com/Amanda-Zulle/ecommerce-syntaxwear.git>
-
+git clone https://github.com/devemdobro/ecommerce-syntaxwear.git
 ```
 
-2. **Abra no navegador:**
-- Opção 1: Abra o arquivo `index.html` diretamente
-- Opção 2: Use um servidor local (recomendado)
+### Acessar a pasta do projeto
 
----
-
-## 💻 Como Usar
-
-### Estrutura HTML Principal
-
-```html
-<!-- Header com navegação -->
-<header class="header">
-  <h1 class="logo">SyntaxWear</h1>
-  <nav class="nav-container">
-    <!-- Navegação aqui -->
-  </nav>
-</header>
-
-<!-- Seção Hero -->
-<section class="hero"></section>
-
-<!-- Categorias de Produtos -->
-<section class="product-category"></section>
-
-<!-- Grid de Produtos -->
-<section class="product-grid"></section>
-
-<!-- Footer -->
-<footer class="footer"></footer>
+```bash
+cd ecommerce-syntaxwear
 ```
 
-## 🎨 Componentes
+### Abrir no navegador
 
-### Header (`css/components/header.css`)
-Componente responsivo com:
-- Logo com link para homepage
-- Menu de navegação central
-- Navegação lateral com acesso rápido
-- Ícone de usuário
-- Menu hamburger para mobile
+Abra o arquivo `index.html` em seu navegador preferido.
 
-### Hero (`css/components/hero.css`)
-Banner principal com:
-- Imagem de fundo
-- Texto destaque
-- Call-to-action
-
-### Categorias de Produtos (`css/components/product-category.css`)
-Seção com:
-- Grid de categorias responsivo
-- Cards de categoria com imagem
-- Links para cada categoria
-
-### Grid de Produtos (`css/components/product-grid.css`)
-Layout com:
-- Grid CSS automático
-- Cards de produtos
-- Informações: imagem, nome, preço
-- Hover effects
-
-### Footer (`css/components/footer.css`)
-Rodapé com:
-- Informações da empresa
-- Links rápidos
-- Redes sociais
-- Informações de contato
-
----
-
-## 🎯 Variáveis CSS
-
-Arquivo: `css/variables.css`
-
-```css
-:root {
-  --fonte-principal: 'Ubuntu', sans-serif;
-  /* Adicione mais variáveis conforme necessário */
-}
-```
-
-**Como usar variáveis:**
-```css
-body {
-  font-family: var(--fonte-principal);
-}
-```
-
----
-
-## 📱 Responsividade
-
-O projeto é totalmente responsivo com breakpoints para:
-- **Mobile**: < 768px
-- **Tablet**: 768px - 1024px
-- **Desktop**: > 1024px
-
-**Recursos responsivos implementados:**
-- Menu hamburger para mobile
-- Grid adaptativo de produtos
-- Imagens escaláveis
-- Tipografia fluida
-- Flexbox e CSS Grid
-
----
-
-## 📝 Padrões de Código
-
-### Convenção de Nomes CSS
-```css
-.block-element-modifier {}  /* BEM - Block Element Modifier */
-.header {}
-.header__logo {}
-.header--mobile {}
-```
-
-### Organização HTML
-```html
-<!-- Use elementos semânticos -->
-<header>, <nav>, <section>, <article>, <footer>
-
-<!-- Use ARIA labels para acessibilidade -->
-<nav aria-label="Categorias Principais">
-```
-
-### Comentários
-```css
-/* Descrição clara e concisa */
-```
-
----
-
-## 🔗 Recursos Úteis
-
-- [MDN Web Docs - HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-- [MDN Web Docs - CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- [Web.dev - Responsive Design](https://web.dev/responsive-web-design-basics/)
-- [A11y Project - Accessibility](https://www.a11yproject.com/)
-
----
 
 ## 👨‍💻 Autor
 

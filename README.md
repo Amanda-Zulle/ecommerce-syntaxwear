@@ -63,7 +63,7 @@ Para executar este projeto localmente, basta abrir o arquivo `index.html` em seu
 ### Clonar o repositório
 
 ```bash
-git clone https://github.com/devemdobro/ecommerce-syntaxwear.git
+git clone https://github.com/Amanda-Zulle/ecommerce-syntaxwear.git
 ```
 
 ### Acessar a pasta do projeto

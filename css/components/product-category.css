@@ -16,7 +16,7 @@
 	overflow: hidden;
 }
 
-.overlay{
+.overlay {
 	position: absolute;
 	inset: 0;
 	background-color: rgba(0, 0, 0, 0.25);
@@ -46,8 +46,14 @@
 	background: url(../../images/products/moderno.jpg) no-repeat center;
 	background-size: cover;
 }
-	
+
 .futurista {
 	background: url(../../images/products/futurista.jpg) no-repeat center;
 	background-size: cover;
+}
+
+@media (max-width:500px) {
+	.category-card {
+		width: 100%;
+	}
 }

@@ -1,10 +1,5 @@
 # 🛍️ SyntaxWear - E-commerce de Tênis e Sneakers
 
-[![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)]()
-[![License](https://img.shields.io/badge/license-MIT-blue)]()
-[![HTML5](https://img.shields.io/badge/HTML5-%23E34F26?logo=html5&logoColor=white)]()
-[![CSS3](https://img.shields.io/badge/CSS3-%231572B6?logo=css3&logoColor=white)]()
-
 SyntaxWear é uma plataforma de e-commerce moderna e responsiva para compra de tênis e sneakers online. O projeto foi desenvolvido como parte do DevQuest 2.0 - Curso Front-end, com foco em boas práticas de desenvolvimento web, design responsivo e estrutura semântica.
 
 ## 📋 Sumário
